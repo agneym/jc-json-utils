@@ -4,8 +4,8 @@
   "description": "A JSON utils test file",
   "author": "Agney Menon <agney@outlook.in>",
   "license": "MIT",
-  "main": "dist/og-image-element.js",
-  "module": "dist/og-image-element.js",
+  "main": "dist/og-json-utils.js",
+  "module": "dist/og-json-utils.js",
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "start:compatibility": "es-dev-server --app-index demo/index.html --compatibility all --node-resolve --open --watch",
