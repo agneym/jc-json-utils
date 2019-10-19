@@ -17,10 +17,11 @@ export class OgJsonUtils extends LitElement {
   }
 
   __transformJson() {
-    this.data.id = 1;
+    const data = JSON.stringify(this.data);
+    data.id = 1;
     const event = new CustomEvent('json-transform', {
       detail: {
-        message: this.data,
+        message: data,
       },
     });
     this.dispatchEvent(event);
