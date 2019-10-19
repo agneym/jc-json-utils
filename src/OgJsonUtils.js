@@ -12,25 +12,23 @@ export class OgJsonUtils extends LitElement {
 
   static get properties() {
     return {
-      title: { type: String },
-      counter: { type: Number },
+      data: { type: String },
     };
   }
 
-  constructor() {
-    super();
-    this.title = 'Hey there';
-    this.counter = 5;
-  }
-
-  __increment() {
-    this.counter += 1;
+  __transformJson() {
+    const event = new CustomEvent('json-transform', {
+      detail: {
+        message: 'transform',
+      },
+    });
+    this.dispatchEvent(event);
   }
 
   render() {
     return html`
-      <h2>${this.title} Nr. ${this.counter}!</h2>
-      <button @click=${this.__increment}>increment</button>
+      <pre>${this.data}</pre>
+      <button @click=${this.__transformJson}>Transform</button>
     `;
   }
 }
