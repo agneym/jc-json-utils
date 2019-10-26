@@ -1,37 +1,34 @@
-# \<og-json-utils>
+# JSON Crew Plugin
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
-## Installation
-```bash
-npm i og-json-utils
-```
+This is a starter template for plugin to be used with [JSON Crew](https://jsoncrew.agney.dev)
 
 ## Usage
 ```html
 <script type="module">
-  import 'og-json-utils/og-json-utils.js';
+  import 'jc-json-utils/jc-json-utils.js';
 </script>
 
-<og-json-utils></og-json-utils>
+<jc-json-utils data="{ thing: 1}"></jc-json-utils>
 ```
 
-## Testing using karma (if applied by author)
+## Testing using karma
 ```bash
 npm run test
 ```
 
-## Testing using karma via browserstack (if applied by author)
+## Testing using karma via browserstack
 ```bash
 npm run test:bs
 ```
 
-## Demoing using storybook (if applied by author)
+## Demoing using storybook
 ```bash
 npm run storybook
 ```
 
-## Linting (if applied by author)
+## Linting
 ```bash
 npm run lint
 ```
