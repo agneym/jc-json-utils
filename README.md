@@ -24,16 +24,6 @@ npm start
 npm run test
 ```
 
-## Testing using karma via browserstack
-```bash
-npm run test:bs
-```
-
-## Demoing using storybook
-```bash
-npm run storybook
-```
-
 ## Linting
 ```bash
 npm run lint
