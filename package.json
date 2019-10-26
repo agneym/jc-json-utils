@@ -1,11 +1,11 @@
 {
-  "name": "@agney/og-json-utils",
+  "name": "@agney/jc-json-utils",
   "version": "0.0.6",
   "description": "A JSON utils test file",
   "author": "Agney Menon <agney@outlook.in>",
   "license": "MIT",
-  "main": "dist/og-json-utils.js",
-  "module": "dist/og-json-utils.js",
+  "main": "dist/jc-json-utils.js",
+  "module": "dist/jc-json-utils.js",
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "start:compatibility": "es-dev-server --app-index demo/index.html --compatibility all --node-resolve --open --watch",
