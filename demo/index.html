@@ -15,11 +15,9 @@
     import { html, render } from 'lit-html';
     import '../jc-json-utils.js';
 
-    const title = 'Hello owc World!';
     render(
       html`
-        <jc-json-utils .title=${title}>
-          some more light-dom
+        <jc-json-utils .data=${'{ "thing": "nothing" }'}>
         </jc-json-utils>
       `,
       document.querySelector('#demo')
