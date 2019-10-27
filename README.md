@@ -13,19 +13,15 @@ This is a starter template for plugin to be used with [JSON Crew](https://jsoncr
 <jc-json-utils data="{ thing: 1}"></jc-json-utils>
 ```
 
+## Running the demo
+```bash
+npm i
+npm start
+```
+
 ## Testing using karma
 ```bash
 npm run test
-```
-
-## Testing using karma via browserstack
-```bash
-npm run test:bs
-```
-
-## Demoing using storybook
-```bash
-npm run storybook
 ```
 
 ## Linting
