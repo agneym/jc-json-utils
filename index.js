@@ -1,1 +1,1 @@
-export { OgJsonUtils } from './src/OgJsonUtils.js';
+export { JcJsonUtils } from './src/JcJsonUtils.js';
